@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+
+.searchbox{
+  text-align: right;
+  
+}
+
+body{
+background:url('../img/dest/home.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.row{
+	margin-left: 1px;
+}
+span{
+	font-size: 150px;
+}
+
+
+#welcome>h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Black Han Sans', sans-serif;
+	font-weight: 90;
+	font-size: 60px;
+}
+
+#detail>ul>li{
+	color: white;
+	font-weight: 35;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+#detail{
+	margin-top: 65px;
+	margin-left: 25px;
+
+}
+
+
+
+
+
+

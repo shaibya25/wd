@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+body{
+
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #1bac91;
+
+}
+
+.net{
+	width: 500px ;
+	margin: left;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	float: left;
+	padding-left: 2em;
+
+}
+
+
+th{
+	color: black;
+	text-align: center;
+}
+
+form{
+	padding:0 0 3px 10px;
+}
+
+label{
+	width:100px;
+	padding:0 10px 0 0;
+	float:left;
+}
+
+input{
+	width: 200px;
+                
+}
+
+#occupation{
+	width:300px;
+	height:150px;
+}
+
+table:hover{
+	background-color:white;
+}
+.bus{
+	text-align: right;
+	padding-right: 3em;
+	color: black;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.icon-bar{
+	text-align: center;
+	font-size: 40px;
+}
+h4{
+	color: white;
+}
+
+.field.input {
+	padding-right: 50px;
+	margin-right: 50px;
+	border-right: 100px;
+}
+
+.lead {
+	
+	font-family: 'Black Han Sans', sans-serif;
+	text-align: center;
+	font-weight: 120;
+	font-size: 60px;
+	color: white;
+	margin-top: 0px;
+
+}
+
+.bus {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 16px
+	
+
+}
+
+.bus>h3 {
+	color: white;
+	
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 36px
+
+}
+
+footer {
+	text-align: center;
+	background-color: black;
+	margin-top: 400px;
+	padding-top: 30px;
+	padding-left: 10px;
+	height: 180px;
+
+}
+
+.social-networks{
+	font-size: 2em;
+}
+
+
+footer ul.social-networks li {
+	display:inline;
+}
+
+footer ul.social-networks li i {
+	display:inline-block;
+}
+
+footer ul.social-networks li a {
+	color: #5e5e5e;
+	margin: 0 5px;
+	padding-top: 20px;
+}
+
+footer ul.social-networks li a:hover {
+	text-decoration:none;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+footer ul.social-networks li i.icon-bgdark {
+	background:#414141;
+	color: #656565;
+}
+
+
+footer ul.social-networks li a i.icon-instagram:hover {
+	background: #ba7b3d;
+	color: #fff;
+}
+
+footer ul.social-networks li a i.icon-twitter:hover {
+	background: #5ad2eb;
+	color: #fff;
+}
+footer ul.social-networks li a i.icon-facebook:hover {
+	background: #3B5998;
+	color: #fff;
+}
+footer ul.social-networks li a i.icon-pinterest:hover {
+	background: #d84848;
+	color: #fff;
+}
+
+.copyright {
+	font-size: 25px;
+	font-weight: 55;
+	color: white;
+}

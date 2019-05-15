@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>temporal</title>
+      <meta charset="utf-8" />
+      <meta name="author" content="your name" />
+      <meta name="description" content="Web development exercises" />
+      <link rel="stylesheet" type="text/css" href="../css/rick.css">
+      <link rel="stylesheet" href="../gumby/css/gumby.css">     
+       <script src="../gumby/js/libs/modernizr-2.6.2.min.js"></script>     
+      <link href="main.css" rel="stylesheet" type="text/css" />
+      
+         
+      
+
+   </head>
+   <body>
+  
+      <div class="navcontain">
+      <div class="pretty navbar" gumby-fixed="top" id="nav3">
+         <div class="row">
+            <a class="toggle" gumby-trigger="#nav3 > .row > ul" href="#"><i class="icon-menu"></i></a>
+            <h5 class="four columns logo">
+               <a href="../about.html">
+                  SHAIBYA TRAVEL
+               </a>
+            </h5>
+            <ul class="eight columns">
+               <li><a href="#">Portfolio</a>
+            <div class="dropdown">
+               <ul>
+                  <li><a href="#">HTML</a>
+                     <div class="dropdown">
+                  <ul>
+                     <li><a href="strucure.html">Structure</a></li>
+                     <li><a href="common.html">Common Elements</a></li>
+                     <li><a href="graphics.html">Graphics</a></li>
+                     <li><a href="temporal.html">Temporal</a></li>
+                     <li><a href="forms.html">Forms</a></li>
+                     <li><a href="tables.html">Tables</a></li>
+                  </ul>
+               </div>
+                  </li>
+                  <li><a href="#">CSS</a>
+                       <div class="dropdown">
+                        <ul>
+                           <li><a href="selectors.html">Selectors</a></li>
+                           <li><a href="commoncss.html">Common CSS</a></li>
+                           <li><a href="necessary.html">Necessary</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li><a href="cv.html">CV</a>
+               </ul>
+            </div>
+        </li> 
+               <li><a href="../home.html">Home</a></li>
+               <li><a href="../about.html"> About </a></li>
+               <li><a href="../destination.html">Destination</a>
+                  
+            </li>
+               <li><a href="../gallery.html">Gallery</a>
+               <li><a href="../contact.html">Contact</a><li>
+   </ul>
+</div>
+</div>
+</div>
+<form method="get" action="server_program_name">
+
+      <label for="email">Email: </label>
+      <input type="text" id="email" name="email" />
+      
+      <label for="password">Password: </label>
+      <input type="password" id="password" name="password" />
+      
+      <button type="submit" value="submit">Sign in</button>
+      
+</form>
+<p>Choose your favourite colour:
+   <input type="radio" name="colour" value="red" checked="checked" /> Red
+   <input type="radio" name="colour" value="green" /> Green
+   <input type="radio" name="colour" value="blue" /> Blue
+</p>
+<p>Which is your favourite pass time?
+   <input type="radio" name="hobby" value="travel" /> Travel
+   <input type="radio" name="hobby" value="food" /> Food
+   <input type="radio" name="hobby" value="sky diving" /> Sky Diving
+</p>
+<p>Select your favourite colour(s):
+   <input type="checkbox" name="red" value="true" checked="checked" /> red
+   <input type="checkbox" name="green" value="true" /> green
+   <input type="checkbox" name="blue" value="true" checked="checked" /> blue
+</p>
+<form method="post" enctype="multipart/form-data" action="my_server_prog">
+   <p>
+      <label for="fileupload">Please choose a file to upload: </label>
+      <input type="file" id="fileupload" name="file1" />
+   </p>
+</form>
+<form method="post" enctype="multipart/form-data" action="my_server_program" >
+   <p>
+      <label for="email">What is your Email?</label>
+      <input type="email" id="email" name="email" /><br><br>
+      <label for="url">Enter a URL:</label>
+      <input type="url" id="url" name="url" /><br><br>
+      <label for="number">Choose a number:</label>
+      <input type="number" min="1" max="10" step="2" id="number" name="number"  />
+      <p>
+      Choose a number:<br />
+       1 <input type="range" min="1" max="5" step="1" id="range" name="range" /> 5
+      </p>
+      <label for="date">Select a date:</label>
+      <input type="date" id="date" name="date" /><br><br>
+      <label for="colour">Pick a color:</label>
+      <input type="color" id="colour" name="colour" /><br><br>
+      <label for="colours">What's your favorite colour?</label>
+      <input type="text" id="colours" list="hint" placeholder="try b!" name="colours" />
+      <datalist id="hint">
+         <option>Red</option>
+         <option>Green</option>
+         <option>Baige</option>
+         <option>Blue</option>
+      </datalist>
+      </p>
+      <p>
+      <button type="submit" value="submit">
+         Submit
+      </button>
+      </p>
+      <p>
+      <button type="reset" value="reset">
+         reset
+      </button>
+      </p>
+</form>
+<script src="../gumby/js/libs/jquery-2.0.2.min.js"></script>
+<script gumby-touch="gumby/js/libs" src="../gumby/js/libs/gumby.min.js"></script>
+</body>
+</html>

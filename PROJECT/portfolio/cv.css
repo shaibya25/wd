@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+
+body{
+background:url('../img/dest/blur.png');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#cv>h1 {
+	text-align: center;
+	color: black;
+	font-family: 'Black Han Sans', sans-serif;
+	font-weight: 90;
+	font-size: 60px;
+}
+
+.row {
+	margin-left:  30px;
+}
+
+.welcome {
+	
+	padding-left: 350px;
+}
+
+.welcome>ul>li>h3{
+	color: black;
+	font-weight: 35;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.welcome>h2 {
+	font-weight: 80;
+	font-size: 30px;
+
+}
+.edu {
+	padding-left: 20px;
+}
+
+.edu>ol>li>h3{
+	color: black;
+	font-weight: 35;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.edu>h2 {
+	font-weight: 80;
+	font-size: 30px;
+}
+
+.work {
+	margin-left: 360px;
+}
+
+.work>ul>li{
+	color: black;
+	font-weight: 35;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.work>h2 {
+	font-weight: 80;
+	font-size: 30px;
+}
+
+.hob {
+	padding-left: 20px;
+}
+.hob>h2 {
+	font-weight: 80;
+	font-size: 30px;
+}
+
+.hob>ol>li{
+	color: black;
+	font-weight: 35;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.quote {
+	text-align: center;
+}
+
+.quote >p {
+	color: black;
+	font-weight: 35;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}

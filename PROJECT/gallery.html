@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Frontpage</title>
+  <!-- Include meta elements here!  -->
+
+      <!-- Gumby CSS  -->
+      <link rel="stylesheet" href="gumby/css/gumby.css">
+      
+      <link rel="stylesheet" type="text/css" href="css/slider.css">
+      <link rel="stylesheet" type="text/css" href="css/rick.css">
+
+      <!-- Gumby uses Moderniser JS -->      
+      <script src="gumby/js/libs/modernizr-2.6.2.min.js"></script>
+
+      <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/cycle2.js"></script>
+    <link rel="stylesheet" type="text/css" href="slider.css">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+  <style type="text/css">
+  
+    
+  </style>
+      <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+</head>
+<body>
+  <div class="navcontain">
+      <div class="pretty navbar" gumby-fixed="top" id="nav3">
+         <div class="row">
+            <a class="toggle" gumby-trigger="#nav3 > .row > ul" href="#"><i class="icon-menu"></i></a>
+            <h5 class="four columns logo">
+               <a href="about.html" class="rick">
+                  Shaibya TRAVELS
+               </a>
+            </h5>
+            <ul class="eight columns">
+               <li><a href="#">Portfolio</a>
+            <div class="dropdown">
+               <ul>
+                  <li><a href="#">HTML</a>
+                     <div class="dropdown">
+                  <ul>
+                     <li><a href="portfolio/structure.html">Structure</a></li>
+                     <li><a href="portfolio/common.html">Common Elements</a></li>
+                     <li><a href="portfolio/graphics.html">Graphics</a></li>
+                     <li><a href="portfolio/temporal.html">Temporal</a></li>
+                     <li><a href="portfolio/forms.html">Forms</a></li>
+                     <li><a href="portfolio/tables.html">Tables</a></li>
+                  </ul>
+               </div>
+                  </li>
+                  <li><a href="#">CSS</a>
+                       <div class="dropdown">
+                        <ul>
+                           <li><a href="portfolio/selectors.html">Selectors</a></li>
+                           <li><a href="portfolio/commoncss.html">Common CSS</a></li>
+                           <li><a href="portfolio/necessary.html">Necessary</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li><a href="portfolio/cv.html">CV</a>
+               </ul>
+            </div>
+        </li> 
+               <li><a href="home.html">Home</a></li>
+               <li><a href="about.html"> About </a></li>
+               <li><a href="destination.html">Destination</a>
+                  
+            </li>
+               <li><a href="gallery.html">Gallery</a>
+               <li><a href="contact.html">Contact</a><li>
+   </ul>
+</div>
+</div>
+</div>
+<div id="container">
+ 
+
+ <div id="slideshow" class="cycle-slideshow" 
+ data-cycle-fx="fade" 
+ data-cycle-manual-fx="scrollHorz" 
+ data-cycle-pager-fx = "fade" 
+ data-cycle-manual-speed="400"
+ data-cycle-prev="#prev"    
+ data-cycle-next="#next"
+ data-cycle-speed="600"  
+ data-cycle-timeout="3000" 
+ data-cycle-pager = "#pager" 
+ data-cycle-pager-template="<a href='#'><img src='{{src}}' width=150 height=100></a>"
+     > 
+      
+        <img src="img/dest/bhu2.jpg" id="intro_img"/>
+        <img src="img/dest/tib.jpg" id="intro_img"/>
+        <img src="img/dest/nepal.jpg" id="intro_img"/>
+         <img src="img/dest/mustang.jpg" id="intro_img"/>
+         <img src="img/dest/bhutan2.jpg" id="intro_img"/>
+         <img src="img/dest/bhu.jpg" id="intro_img"/>
+         
+        </div>
+
+        <div id="pager">
+            
+        </div>
+        
+        <div id="prev_c"><img id="prev" src="img/dest/prev1.svg"/></div>
+        <div id="next_c"><img id="next" src="img/dest/next1.svg"/></div>
+</div>
+
+<script type="text/javascript">
+ var ScreenWidth;
+
+function height() {
+  var h = window.innerHeight;
+  var a = document.getElementById('container');
+  a.style.height = h+"px";
+    ScreenWidth = window.innerWidth;
+  }
+  
+   
+    // get x anf y ofset of div
+ $('#pager').mousemove(function(e){
+            var X = e.pageX;
+            var Y = e.pageY;
+//            console.log(X);
+//            console.log(ScreenWidth);
+     var halfOfset = ScreenWidth/2;
+       var ofsetBox = halfOfset - X;
+//            console.log(ofsetBox);
+     var elem = $("#pager");
+     var maxOfset =elem[0].scrollWidth;
+//     console.log(maxOfset);
+//    
+        $("#pager").scrollLeft(-2*ofsetBox); // change this multiple to fit your max scroll,depends on no of images.
+                                             // also control the speed of the move.
+            });
+    
+window.addEventListener('load',height);
+window.addEventListener('resize',height);
+</script>
+<footer>
+      <div class="container">
+         <div class="row">
+            <div class="span6 offset3">
+               <ul class="social-networks">
+                  <li><a href="www.instagram.com"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
+                  <li><a href="www.twitter.com"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
+                  <li><a href="www.facebook.com"><i class="icon-circled icon-bgdark icon-facebook icon-2x"></i></a></li>
+                  <li><a href="www.pininterest.com"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
+               </ul>
+               <p class="copyright">
+                  &copy; Shaibya bhandari. All rights reserved.
+               </p>
+            </div>
+         </div>
+      </div>
+   </footer>
+<!-- Gumby JS includes -->
+      
+      <script gumby-touch="gumby/js/libs" src="gumby/js/libs/gumby.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+section {
+	border-radius: 15px;
+	border: 1px dashed blue; 
+	margin: .5em; 
+	padding: .5em; 
+	font-size: 15px;
+	word-spacing: 5px;
+	
+	font-family: 'Lustria', serif;
+}
+a:hover {
+	border-bottom: 3px solid #4a4;
+	background-color: green; 	
+}
+
+body{
+font-family: 'Just Another Hand', cursive;
+background:url('abc.jpg');
+background-repeat: no-repeat;
+background-size:160%;
+}
+
+ .content{
+ 	width:200px;
+ 	display:inline-block;
+ }
+ article{
+ 	color:white;
+ }
+ header{
+ 	font-family: 'Lustria', serif;
+ }
+ footer{
+ 	font-family: 'Lustria', serif;
+ }
+h1,h2{
+	color:white;
+ }
+ .one{
+ 	background-color: black;
+ 	color: white;
+ }

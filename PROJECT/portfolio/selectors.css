@@ -1,0 +1,50 @@
+section {
+	 border-top: 1px solid gray;
+}
+body{
+background:url('abc.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Just Another Hand', cursive;
+}
+footer {
+	 color: gray;
+	 border-top: 1px solid gray;
+}
+footer > h1 {
+	color: gray;
+	
+}
+.highlight {
+	 color: black;
+	 background-color: #DDD;
+	 font-size: 15px;
+	 padding: 1em;
+}
+.highlight:hover{
+	background-color: gray;
+}
+#selectors{
+	 padding: 1em;
+	 border: 1px solid gray;
+	 border-radius: 10px;
+}
+#ex_float {
+	float: left;
+}
+h1{
+	color:red;
+}
+
+a:hover {
+	border-bottom: 3px solid #4a4;
+	background-color: green; 	
+}
+
+article{
+	font-family: 'Lustria', serif;
+}
+ .one{
+ 	background-color: black;
+ 	color: white;
+ }

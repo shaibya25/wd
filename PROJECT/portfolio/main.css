@@ -1,0 +1,73 @@
+section {
+	border-radius: 15px;
+	border: 1px dashed blue; 
+	margin: .5em; 
+	padding: .5em; 
+	font-size: 15px;
+	word-spacing: 5px;
+	
+	font-family: 'Lustria', serif;
+}
+
+a:hover {
+	border-bottom: 3px solid #4a4;
+	background-color: green; 	
+}
+
+body{
+font-family: 'Just Another Hand', cursive;
+background:url('abc.jpg');
+background-repeat: no-repeat;
+background-size: 200%;
+}
+.my{
+	transform:scale(0.9);
+	width:600px;
+	height: 400px;
+	float:right;
+}
+ .content{
+ ;
+ 	display:inline-block;
+ 	color: white;
+ 	font-size: 40px;
+ 	letter-spacing: 3px;
+ 	padding-left: 1em;
+ }
+ article{
+ 	color:white;
+ }
+ h1{
+ 	color:red;
+ 	font-size: 50px;
+ }
+ footer {
+	 color: white;
+	 
+	 letter-spacing: 3px;
+	 font-size: 30px;
+	width:100%;
+	padding-top: 10em;
+
+
+}
+footer > h1 {
+	color: white;
+}
+ .one{
+ 	background-color: black;
+ 	color: white;
+ }
+ h2,h3,h4{
+ 	color: white;
+ 	font-family: 'Lustria', serif;
+}
+ .img{
+ 	transform:scale(0.9);
+	width:400px;
+	height: 400px;
+	float:right;
+ }
+ form,p,li{
+ 	color: white;
+ }
